@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 app = Flask(__name__)
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 # Temporary tone memory (not persistent)
 user_tones = {}
